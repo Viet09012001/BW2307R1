@@ -1,0 +1,27 @@
+.first-box{
+    margin-left: 30rem;
+    margin-top: 10rem;
+    height: 300px;
+    width: 500px;
+    background-color: #469a25;
+    padding: 50px;
+
+}
+.second-box{
+    position:absolute;
+    height: 280px;
+    background-color: #fff;
+    padding-top: 20px;
+    width: 500px;
+
+}
+.content{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+    width: fit-content;
+    margin-left: 120px;
+    color: #469a25;
+    background-color: #c5c5db;
+
+}
