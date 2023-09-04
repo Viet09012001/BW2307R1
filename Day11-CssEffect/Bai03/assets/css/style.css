@@ -1,0 +1,47 @@
+.circle {
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-color: greenyellow;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 36px #45237a, 0 0 0 40px #56ff00;
+    transform: translate(-505,-50%);
+}
+
+.circle::before, .circle::after {
+    content: '';
+	position: absolute;
+	left: -30px;
+	top: -30px;
+	right: -30px;
+	bottom: -30px;
+	border: 2px solid red;
+	border-radius: 50%;
+	animation: animate 2s linear infinite;
+}
+
+.circle::after{
+    animation-delay: 1s;
+}
+
+@keyframes animate {
+    0%{
+        transform:scale(1.7);
+    }
+    25%{
+        transform: scale(1.4);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    75%{
+        transform: scale(.8);
+    }
+    100%{
+        transform: scale(.5);
+    }
+} 

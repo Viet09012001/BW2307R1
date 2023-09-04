@@ -1,0 +1,47 @@
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 35rem;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover{
+    background-color: lightgreen;
+    color: blue;
+}
+.text{
+        margin-top: 4%;
+        padding: 16px;
+}
+.text a{
+    font-size: 50px;
+}
+
+#dumb{
+    text-decoration: none;
+    color : black
+}
+#dumb:hover{
+    color: red;
+}
+.bottom{
+    overflow: hidden;
+    background-color: #000;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding-left: 70rem;
+    height: 50px;
+    color: #f2f2f2;
+    font-size: 30px;
+}

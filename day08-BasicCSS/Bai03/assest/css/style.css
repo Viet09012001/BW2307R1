@@ -1,7 +1,20 @@
+*{
+    line-height: 20px;
+}
 a {
     color: #440000;
 }
+h1{
+    font-size: 40px;
+}
 
 h3 {
-    border-bottom: 1px solid black;
+    border-bottom: .1px solid lightgray;
+    font-size: 25px;
+}
+li {
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
 }

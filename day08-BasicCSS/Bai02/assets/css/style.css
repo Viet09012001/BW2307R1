@@ -8,7 +8,6 @@
 
 }
 .second-box{
-    position:absolute;
     height: 280px;
     background-color: #fff;
     padding-top: 20px;
@@ -16,6 +15,7 @@
 
 }
 .content{
+    padding: 5px 5px 5px 5px;
     text-align: center;
     font-size: 50px;
     margin-top: 70px;
