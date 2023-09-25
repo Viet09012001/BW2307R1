@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 20px;
+}
+.container{
+    /* border: 1px solid #ccc; */
+    width: 500px;
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+.item{
+    /* border: 1px solid #ccc; */
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,29 @@
+
+.image{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: aqua;
+}
+.bg-nav{
+    background-color: #ecf4ff;
+}
+.bg-content{
+    background-color: #ecf4ff;
+}
+.card{
+    width: 20rem;
+}
+.bg{
+    background-color: #ecf4ff;
+}
+.fs{
+    font-size: .8rem;
+    font-weight: bold;
+    color: gray;
+}
+.fs-h5{
+    font-size: 1rem;
+}
+.margin{
+    margin-left: 10rem;
+}

@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial;
+}
+.main{
+    width: 100%;
+    background: linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url("../audio/image/backoff.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+}
+.icon{
+    float: left;
+    width: 200px;
+    height: 70px;
+}
+.logo{
+    color: #0071bc;
+    font-size: 70px;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin: 40px 0 0 60px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    font-weight: bold;
+}
+ul li a:hover{
+    cursor: pointer;
+    color: #0071bc;
+}
+.search{
+    width: 350px;
+    float: left;
+    margin-left: 200px;
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: 15px;
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #0071bc;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+}
+.btn{
+    width: 30%;
+    height: 40px;
+    background-color: #0071bc;
+    border: 2px solid #0071bc;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    color: #fff;
+    position: relative;
+    top: 20rem;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color: #0071bc;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: #333;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: #fff;
+}
+.content span{
+    color: #0071bc  ;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #0071bc;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #0071bc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;    
+}
+.btn2{
+    margin-top: 15px;
+    width: 50%;
+    height: 40px;
+    background-color: #0071bc;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 8px;
+    transition: .4s ease-out;
+}
+.btn2 a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+}
+.btn2:hover{
+    background-color: #fff;
+}
+.form .link{
+    font-size: 17px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #0071bc;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.liw a{
+    text-decoration: none;
+    color: #0071bc;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
+    .search{
+        width: 100%;
+    }
+    /* .content{
+        width: 100%;
+    } */
+    .form{
+        width: 100%;
+    }
+}
