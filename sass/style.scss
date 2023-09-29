@@ -1,0 +1,14 @@
+$bgcolor:red;
+$fontSize:100px;
+$backgroundColor: green;
+$boder: 1px solid black;
+
+h1{
+    color: $bgcolor;
+}
+p{
+    color: $bgcolor;
+    font-size: $fontSize;
+    border: $boder;
+    background-color: $backgroundColor;
+}
